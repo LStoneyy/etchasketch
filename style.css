@@ -49,6 +49,10 @@ body {
     border-radius: 20px;
 }
 
+.btn:hover {
+    background-color: rgb(192, 181, 166);
+}
+
 .container {
     display: flex;
     flex-direction: row;

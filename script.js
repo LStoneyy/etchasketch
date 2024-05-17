@@ -8,6 +8,8 @@ function changeGrid() {
 
     if (grid > 100) {
         grid = parseInt(prompt("Error! Number must be below 100. Enter a new one:"))
+        containerDiv.textContent="";
+        createGrid(grid);
     } else {
         containerDiv.textContent="";
         createGrid(grid);

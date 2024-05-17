@@ -4,7 +4,20 @@ html {
     font-family: Roboto;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     display: flex;
     flex-direction: row;
+}
+
+div.columns{
+    padding: 1em;
+    background-color: antiquewhite;
+    border: solid 1px black;
 }

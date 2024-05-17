@@ -20,12 +20,13 @@ function createGrid(grid) {
     
         for (let cindex = 0; cindex < grid; cindex++) {
             let columns = document.createElement("div");
-            columns.textContent = "Test";
+            columns.textContent = "";
+            columns.className = "columns"
             columns.addEventListener("mouseover", hovering, true)
             rows.append(columns);
     
             function hovering() {
-                columns.setAttribute("style", "color: blue")
+                columns.setAttribute("style", "background-color: blue")
             }
         }
     

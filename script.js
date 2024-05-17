@@ -28,7 +28,7 @@ function createGrid(grid) {
             rows.append(columns);
     
             function hovering() {
-                columns.setAttribute("style", "background-color: blue")
+                columns.setAttribute("style", "background-color: gray")
             }
         }
     

@@ -1,5 +1,6 @@
 html {
-    background-color: black;
+    width: 100%;
+    background-color: rgb(35, 35, 35);
     color: antiquewhite;
     font-family: Roboto;
 }
@@ -11,10 +12,47 @@ body {
     align-items: center;
 }
 
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header h1{
+    background-color: rgb(57, 57, 57);
+    border: solid 2px antiquewhite;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+
+.header p{
+    margin-top: 0;
+    font-size: x-small;
+}
+
+.grid-input {
+    width: 100%;
+    margin: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px
+}
+
+.btn {
+    /* padding: 2em; */
+    width: 120px;
+    height: 64px;
+    background-color: antiquewhite;
+    color: black;
+    border: solid 2px rgb(57, 57, 57);
+    border-radius: 20px;
+}
+
 .container {
     display: flex;
     flex-direction: row;
-    margin-top: 2em;
+    margin-top: 20px
 }
 
 div.columns{
